@@ -1,0 +1,37 @@
+{
+  "scopeName": "source.asampl",
+  "patterns": [
+    {
+      "name": "keyword.control.asampl",
+      "match": "\\b(if|else|while|for|return)\\b"
+    },
+    {
+      "name": "storage.type.asampl",
+      "match": "\\b(int|string|boolean|float)\\b"
+    },
+    {
+      "name": "variable.other.asampl",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    },
+    {
+      "name": "support.function.builtin.asampl",
+      "match": "\\bprint\\b"
+    },
+    {
+      "name": "constant.numeric.asampl",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "string.quoted.double.asampl",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.asampl",
+          "match": "\\\\."
+        }
+      ]
+    }
+  ],
+  "repository": {}
+}

@@ -1,0 +1,13 @@
+int function factorial(int n){ 
+if(n==0){
+return 1; 
+}  
+int b = n - 1; 
+int mul = factorial(b);
+int res = n * mul;  
+return res;
+} 
+int r = factorial(5);
+string text = "factorial 5: ";
+print(text);
+print(r);

@@ -1,0 +1,41 @@
+{"tokenColors": [
+  {
+    "scope": "keyword.control.asampl",
+    "settings": {
+      "foreground": "#FF007F",
+      "fontStyle": "bold"
+    }
+  },
+  {
+    "scope": "storage.type.asampl",
+    "settings": {
+      "foreground": "#569CD6"
+    }
+  },
+  {
+    "scope": "variable.other.asampl",
+    "settings": {
+      "foreground": "#9CDCFE"
+    }
+  },
+  {
+    "scope": "support.function.builtin.asampl",
+    "settings": {
+      "foreground": "#DCDCAA",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "scope": "constant.numeric.asampl",
+    "settings": {
+      "foreground": "#B5CEA8"
+    }
+  },
+  {
+    "scope": "string.quoted.double.asampl",
+    "settings": {
+      "foreground": "#CE9178"
+    }
+  }
+]
+}
